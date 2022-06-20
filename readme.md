@@ -1,3 +1,3 @@
-# Git and Github Course
+# Техногрупп
 
-Crach course for Git
+Техногрупп
