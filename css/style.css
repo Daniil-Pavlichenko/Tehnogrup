@@ -15,11 +15,7 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
-@media(max-width:740px){
-    body{
-        width: 740px;
-    }
-}
+
 h2{
     font-style: normal;
     font-weight: 700;
@@ -35,7 +31,7 @@ body{
     background-color: #E5E5E5;
 }
 .container {
-    min-width: 100%;
+    min-width: 1440px;
     min-height: 100%;
     display: flex;
     flex-direction: column;
