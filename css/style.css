@@ -1002,7 +1002,7 @@ span{
 }
 @media(max-width:768px) {
     .container{
-        min-width: 100%;
+        max-width: 100%;
     }
     .header{
         display: none;
@@ -1048,7 +1048,7 @@ span{
         margin: 0 auto;
     }
     .main__services {
-        width: 590px;
+        width: 100%;
         margin: 0 auto;
     }
     .main__title2{
@@ -1149,7 +1149,7 @@ span{
         height: 440px;
     }
     .container{
-        min-width: 100%;
+        max-width: 100%;
     }
     .main__text__row{
         flex-direction: column;
@@ -1171,7 +1171,7 @@ span{
         min-width: 100%;
     }
     .main__services{
-        w100%
+        
     }
     .hamburger__image img{
         height: 50px;
