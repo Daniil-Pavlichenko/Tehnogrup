@@ -185,7 +185,7 @@
             <div class="slaider1">
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
-                      <div class="swiper-slide swiper-slide_1">
+                      <div class="swiper-slide swiper-slide1 swiper-slide_1">
                           <img class="swiper-slide__image" src="img/Rectangle 84.png" alt="Картинка">
                           <div class="slide1__text">
                             <div class="swiper-slide1_sting1">
@@ -205,7 +205,7 @@
                             </div>
                         </div>
                       </div>
-                      <div class="swiper-slide swiper-slide_2">
+                      <div class="swiper-slide swiper-slide1 swiper-slide_2">
                           <img class="swiper-slide2__img" src="img2/Rectangle 84.png" alt="">
                           <div class="slide2__text">
                               <div class="swiper-slide2_sting1">
@@ -224,7 +224,7 @@
                             </div>
                           </div>
                       </div>
-                      <div class="swiper-slide swiper-slide_3">
+                      <div class="swiper-slide swiper-slide1 swiper-slide_3">
                         <img class="swiper-slide2__img" src="img3/Rectangle 84.png" alt="">
                         <div class="slide3__text">
                             <div class="slide3__string1">
@@ -339,9 +339,18 @@
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
-        breakpoints: {
-        768: {
+        breakpoints: { 
+        1366:{
             slidesPerView: 3,
+        },
+        1024:{
+            slidesPerView: 2,
+        },
+        820:{
+            slidesPerView: 2,
+        },
+        768: {
+            slidesPerView: 1,
             },
         },
         310: {
@@ -359,8 +368,14 @@
           prevEl: ".swiper-button-prev",
         },
         breakpoints: {
+         1366:{
+            slidesPerView: 4,
+        },
+        1024:{
+            slidesPerView: 3,
+        },
         768: {
-            slidesPerView: 5,
+            slidesPerView: 1,
             },
         },
         320: {
@@ -378,8 +393,9 @@
           prevEl: ".swiper-button-prev",
         },
         breakpoints: {
+        
         768: {
-            slidesPerView: 4,
+            slidesPerView: 2,
             },
         },
         320: {
