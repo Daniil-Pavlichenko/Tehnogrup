@@ -1136,6 +1136,21 @@ span{
     }
 }
 @media(max-width:768px) {
+    .slaider3 {
+        width: 550px;
+    }
+    h2{
+        text-align: center;
+    }
+    .slaider2_container h2 {
+        text-align: center;
+        margin-left: 0;
+    }
+    .slaider3__title {
+        margin-bottom: 0;
+        margin-left: 0;
+        text-align: center;
+    }
     .container{
         max-width: 100%;
     }
@@ -1337,6 +1352,10 @@ span{
     }
 }
 @media(max-width:480px){
+    .slaider2_container h2 {
+        text-align: center;
+        margin-left: 0;
+    }
     .header-mob{
         display: block;
         max-width: 480px;
@@ -1429,5 +1448,15 @@ span{
     .slaider1{
         width: auto;
     }
+    .slaider2{
+        margin-left: 80px
+    }
+    .slaider3 {
+        width: 231px;
+    }
+    h2{
+        text-align: center;
+    }
 }
+
 
