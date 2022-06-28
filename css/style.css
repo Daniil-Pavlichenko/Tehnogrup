@@ -1369,6 +1369,13 @@ span{
     .main__services{
         
     }
+    .gallery__item23 {
+        align-self: center;
+        background: url(../img/Rectangle\ 132.png) center center / cover no-repeat;
+    }
+    .gallery__item23 img{
+        display: none;
+    }
     .hamburger__image img{
         height: 50px;
     }
