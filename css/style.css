@@ -24,6 +24,11 @@ h2{
     /* identical to box height */
     color: #000000;
 }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
 body{
     width: 100%;
     height: 100%;
@@ -402,18 +407,13 @@ main{
 .gallery__item23 img{
     width: 590px;
 }
-html,
-body {
-  position: relative;
-  height: 100%;
-}
-
+/* 
 body {
   font-size: 14px;
   color: #000;
   margin: 0;
   padding: 0;
-}
+} */
 .slider1__itle{
     margin: 104px auto 24px auto;
     width: 1206px;
@@ -429,12 +429,6 @@ body {
 .slaider1 h2{
     margin-bottom: 24px;
 }
-html,
-body {
-  position: relative;
-  height: 100%;
-}
-
 .slaider1 .swiper {
     width: 1206px; 
   height: 100%;
